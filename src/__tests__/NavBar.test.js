@@ -32,3 +32,4 @@ test("renders each <a> element with the correct attributes", () => {
   expect(about).toBeInTheDocument();
   expect(about).toHaveAttribute("href", expect.stringContaining("#about"));
 });
+
